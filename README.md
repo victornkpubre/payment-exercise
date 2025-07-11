@@ -46,4 +46,5 @@ Prometheus alert rules
 
 
 ## Performance Metrics
-Example p95 latency metric exposed by Prometheus:
+HELP http_request_duration_summary_ms Summary of HTTP request durations in ms
+http_request_duration_summary_ms{quantile="0.95"} 12.35
